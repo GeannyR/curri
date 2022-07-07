@@ -49,9 +49,6 @@ P {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
-.sobre {
-
-}
 
 /* Primeira Parte e Icones*/
 img {
@@ -147,6 +144,14 @@ a:active {
   gap: 31.81px;
   
 }
+a#linkc {
+  color:#0A090C;
+  font-weight: 400;
+  filter:none;
+}
+  /* Certificados */
+
+
   /* Fontes */
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -261,15 +266,21 @@ h6 {
       flex-direction: column;
     }
 
+    article {
+      flex: 3;
+      border-radius: 20px;
+      background-color: #FFFFFF;
+      padding: 10px 30px 0px 30px;
+  }
     .sobre {
       display:none;
     }
     .page {
       display:none;
     }
-    
-    
-
+    .page {
+      display:none;
+    }
     #navhead {
       -webkit-flex: 1;
       -ms-flex: 1;
@@ -279,7 +290,6 @@ h6 {
       background-color: #0A090C;
       padding-top: 20px;
     }
-
     nav {
       -webkit-flex: 1;
       -ms-flex: 1;
@@ -287,7 +297,7 @@ h6 {
       max-width: 430px;
       text-align: center;
       background-color: #0A090C;
-      padding: 10px 10px 10px 10px;
+      padding: 0px 10px 20px 10px;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     .blockc#footer1 {
@@ -303,7 +313,7 @@ h6 {
     }  
 
     .blockc {
-      background-color: #0A090C;
+      background-color: white;
       border-radius: 0px 0px 0px 0px;
       max-width: 430px;
     }
