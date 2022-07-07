@@ -260,7 +260,7 @@ h6 {
   
 
   /* Responsividade*/
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
@@ -285,7 +285,7 @@ h6 {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 3;
-      max-width: 430px;
+      max-width: 600px;
       border-radius: 20px 20px 0px 0px;
       background-color: #0A090C;
       padding-top: 20px;
@@ -294,7 +294,7 @@ h6 {
       -webkit-flex: 1;
       -ms-flex: 1;
       flex: 3;
-      max-width: 430px;
+      max-width: 600px;
       text-align: center;
       background-color: #0A090C;
       padding: 0px 10px 20px 10px;
@@ -317,8 +317,21 @@ h6 {
       border-radius: 0px 0px 0px 0px;
       max-width: 430px;
     }
+    .gray {
+      color: #0A090C;
+      border-radius: 21px;
+      flex: 3;
+      height: 90px;
+      gap: 31.81px;
+      max-width: 720px;
+      background: #EEEEEE;
+      margin: 15px 0px 0px 2px;
+      padding: 10px 0px 0px 10px;
+  }
    
   }
+
+  
 
   /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,400&display=swap');
