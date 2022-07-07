@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+    /* Corpo / Body */
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin:65px;
@@ -9,7 +9,7 @@
     border-radius: 2px;
   }
   
-  /* Header */
+  /* Cabeça / Header */
   
   header {
     background-color: #FFFFFF;
@@ -44,13 +44,13 @@
   padding:10px;
 }
 
-  /* Sobre mim */
+  /* Sobre mim / About Me */
 P {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
 
-/* Primeira Parte e Icones*/
+/* Primeira Parte e Icones / First Part and Icons */
 img {
   border-radius: 50%;
   margin-bottom: 10px;
@@ -82,7 +82,7 @@ a:active {
   transform: translateY(7px); 
   
 }
-/* Botão Download*/
+/* Botão Download / Download Button*/
 .button#down {
   margin: 10px;
   border-radius: 20px;
@@ -97,7 +97,7 @@ a:active {
   padding: 30px 10px 10px 10px;
 }
 
-/* Icons de Linguagens */
+/* Icons de Linguagens / Icons and Languages */
 #html {
   color:#ff8000;
 }
@@ -121,7 +121,7 @@ a:active {
   opacity: 0.6;
   transition: 0.4s;
 }
-/* Segunda Parte e Fontes*/
+/* Segunda Parte e Fontes / Second party and styles of font*/
 .gray {
   color: #0A090C;
   border-radius: 21px;
@@ -145,14 +145,14 @@ a:active {
   
 }
 
-  /* Certificados */
+  /* Certificados / Certifies */
   a#linkc {
     color:#0A090C;
     font-weight: 400;
     filter:none;
   }
 
-  /* Fontes */
+  /* Fontes / Font */
 h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
@@ -208,7 +208,7 @@ h6 {
     margin: 0px;
   }
   
-/* Nav menu */
+/* Navegador / Nav menu */
   nav {
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -219,13 +219,13 @@ h6 {
     padding: 10px 10px 10px 10px;
   }
   
-/* Dentro do menu*/
+/* Dentro do menu / Inside menu */
   nav ul {
     list-style-type: none;
     padding: 0;
   }
   
-/* Estilo do conteúdo*/
+/* Estilo do conteúdo / Style */
   article {
     -webkit-flex: 3;
     -ms-flex: 3;
@@ -345,7 +345,7 @@ h6 {
    
   }
 
-    /* Responsividade 420px*/
+      /* Responsividade 400px / Responsivity 400px */
     @media (max-width: 400px) {
       section {
         -webkit-flex-direction: column;
