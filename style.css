@@ -259,12 +259,18 @@ h6 {
   }
   
 
-  /* Responsividade*/
+  /* Responsividade 720px*/
   @media (max-width: 720px) {
     section {
       -webkit-flex-direction: column;
       flex-direction: column;
     }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 30px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 2px;
+  }
 
     article {
       flex: 3;
@@ -331,7 +337,18 @@ h6 {
    
   }
 
-  
-
+    /* Responsividade 420px*/
+    @media (max-width: 400px) {
+      section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 2px;
+    }
+    }
   /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,400&display=swap');
